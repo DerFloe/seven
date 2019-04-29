@@ -1,0 +1,29 @@
+header{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#sidebar{
+    a{
+        font-weight: bold;
+    }
+}
+
+body{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media (min-width: 600px) {
+    body{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
