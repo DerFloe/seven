@@ -3,9 +3,9 @@ A portfolio made by Florian Hofer
 
 ## Aims of this project
 
-- understanding react
+- understanding React
 - create a place to showcase my latest work
-- make use of a unique minimalistic design language
+- make use of an unique minimalistic design language
 
 ## How to run this project
 
