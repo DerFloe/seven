@@ -3,22 +3,54 @@ header{
 }
 
 footer{
-    text-align: center;
+    
+    position:absolute;
+    bottom:0;
+    text-align:center;
 }
 
 ul{
     list-style-type: none;
 }
 
-#sidebar{
+.sidebar{
     a{
         font-weight: bold;
+        color: black;
     }
+}
+
+.headerbar{
+    position:fixed;
+    left:0px;
+    top:0px;
+    height:75px;
+    width:100%;
+    background:white;
+    opacity: 0.9;
+    visibility: hidden;
+}
+
+.visible{
+    .headerbar{
+
+        visibility: visible;
+    }
+}
+
+@media (max-width:599px){
+    
+        .sidebar{
+            display:none;
+        }   
 }
 
 body{
     padding-left: 10px;
     padding-right: 10px;
+}
+.main{
+    margin-top: 75px;
 }
 
 @media (min-width: 600px) {
@@ -26,4 +58,9 @@ body{
         padding-left: 0px;
         padding-right: 0px;
     }
+}
+
+main{
+    min-height: 100vh;
+    text-align: right;
 }
