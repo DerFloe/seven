@@ -6,22 +6,21 @@ import Card from './components/Card.js'
 import Projects from './components/Projects.js'
 
 const App = () => {
-  return(
+  return (
     <div className="app">
-      <Scrollspy items={['section-2']} currentClassName="visible" >
+      <section id="section-1"></section>
+      <Scrollspy items={['section-2']} currentClassName="header-visible" >
         <li><Header /></li>
       </Scrollspy>
-      <div className="main">
-        <div className="flex-row">
-          <div className="flex-small"/>
-          <div className="flex-small">
-            <section id="section-1"><Card /></section>
-            <section id="section-2"><Projects /></section>
-          </div>
-          <div className="flex-small"/>
+      <div className="flex-row">
+        <div className="flex-small" />
+        <div className="flex-small">
+          <Card />
+          <section id="section-2"><Projects /></section>
         </div>
-        <Footer />
+        <div className="flex-small" />
       </div>
+      <Footer />
     </div>
   )
 }

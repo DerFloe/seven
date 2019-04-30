@@ -2,10 +2,10 @@ import React from 'react'
 
 function Card() {
     return(
-        <main>
+        <div class="paragraph">
             <h2>Florian Hofer</h2>
             <p>Full Stack Developer</p>
-        </main>
+        </div>
     )
 }
 

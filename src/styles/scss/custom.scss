@@ -1,12 +1,5 @@
-header{
+footer,header{
     text-align: center;
-}
-
-footer{
-    
-    position:absolute;
-    bottom:0;
-    text-align:center;
 }
 
 ul{
@@ -28,29 +21,23 @@ ul{
     width:100%;
     background:white;
     opacity: 0.9;
-    visibility: hidden;
+    display: none;
 }
 
-.visible{
+.header-visible{
     .headerbar{
-
-        visibility: visible;
+        display: inline;
     }
-}
-
-@media (max-width:599px){
-    
-        .sidebar{
-            display:none;
-        }   
 }
 
 body{
     padding-left: 10px;
     padding-right: 10px;
 }
-.main{
-    margin-top: 75px;
+
+.paragraph{
+    min-height: 100vh;
+    text-align: right;
 }
 
 @media (min-width: 600px) {
@@ -60,7 +47,9 @@ body{
     }
 }
 
-main{
-    min-height: 100vh;
-    text-align: right;
+@media (max-width:599px){
+    
+    .sidebar{
+        display:none;
+    }   
 }

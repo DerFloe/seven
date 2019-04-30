@@ -6,7 +6,7 @@ function Sidebar() {
             <nav>
                     <ul>
                         <li>
-                            <a href="#0"> Assets </a>
+                            <a href="#section-1"> Assets </a>
                         </li>
                         <li>
                             <a href="#0">  Projects </a>
