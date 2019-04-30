@@ -11,32 +11,29 @@ A portfolio made by Florian Hofer
 
 ### Installation
 
+clone it
 ```sh
 $ git clone
 ```
-clone it
-
+navigate into the repo
 ```sh
 $ cd /the/folder/location
 ```
-navigate into the repo
-
+install it
 ```sh
 $ npm install
 ```
-install it
 
 ### Start / Build it
 
+start it
 ```sh
 $ npm start
 ```
-start it
-
+build the project to the `build` folder.
 ```sh
 $ npm run build
 ```
-build the project for production to the `build` folder.
 
 # Contact
 Florian Hofer <florianh0f3r@gmail.com>
