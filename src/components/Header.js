@@ -17,11 +17,10 @@ function Header() {
                         </Fade>
                         </div>
                         <div className="flex-small"/>
-                        <div className="flex-small"/>
+                        <div className="flex-small rightflex"/>
                         
                     </div>
                 </div>
-                
         </header>
     )
 }
