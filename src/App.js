@@ -21,11 +21,13 @@ const App = () => {
             <div className="flex-small leftflex" />
             <div className="flex-small">
               <section data-background-color='rgb(0, 0, 0)' className='js-color-stop'>
-                <Card />
+                
               </section>
-              <section data-background-color='rgb(255, 255, 255)' className='js-color-stop' id="section-2">
-                <Projects />
+              <Card />
+              <section data-background-color='rgb(255, 255, 255)' className='js-color-stop'>
               </section>
+              <Projects />
+              
             </div>
             <div className="flex-small rightflex" />
           </div>
