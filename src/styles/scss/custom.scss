@@ -1,5 +1,6 @@
 footer,header{
     text-align: center;
+    background-color: white;
 }
 
 ul{
@@ -13,21 +14,24 @@ ul{
     }
 }
 
+.card{
+    color:white;
+}
+
 .headerbar{
     position:fixed;
     left:0px;
     top:0px;
     height:75px;
     width:100%;
-    background:white;
+    background-color:white;
     opacity: 0.9;
     display: none;
 }
 
 .header-visible{
     .headerbar{
-        display: inline;
-    }
+        display: inline;    }
     
 }
 
@@ -42,8 +46,6 @@ body{
         margin-block-start: 0em;
         margin-block-end: 0em;
     }
-    background-color:black;
-    color:white;
 }
 
 .paragraph{
