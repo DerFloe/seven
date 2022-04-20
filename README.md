@@ -2,6 +2,7 @@
 A portfolio made by Florian Hofer
 
 
+
 ## Aims of this project
 
 - understanding React
